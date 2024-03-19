@@ -1,0 +1,22 @@
+#menu.nav-pills .nav-item {
+    width: 100%;
+    } 
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image: url("bg1.png"); 
+    background-size: cover;
+    box-sizing: border-box; 
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
